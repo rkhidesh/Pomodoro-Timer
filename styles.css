@@ -1,0 +1,120 @@
+/* PINK = "#e2979c"
+RED = "#e7305b"
+GREEN = "#9bdeac"
+YELLOW = "#f7f5dd" */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+
+    font-family: 'Avenir', sans-serif;
+    background: #f7f5dd;
+}
+
+
+.container {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#title {
+    position: absolute;
+    top: 4rem;
+    font-size: 3rem;
+    color: #e2979c;
+}
+
+#tomatoPic {
+    width: 20rem;
+}
+
+#countdown {
+    position: absolute;
+    color: white;
+    font-size: 3.2rem;
+    top: 21rem;
+}
+
+#start {
+    position: absolute;
+    top: 36rem;
+    right: 55rem;
+    padding: .5rem;
+    width: 5rem;
+    border-radius: .3rem;
+    background-color: #357C3C;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#start:hover {
+    background-color: #4E944F;
+}
+
+#start:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+#reset {
+    position: absolute;
+    top: 36rem;
+    left: 55rem;
+    padding: .5rem;
+    width: 5rem;
+    border-radius: .3rem;
+    background-color: #357C3C;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+
+}
+
+#reset:hover {
+    background-color: #4E944F;
+}
+
+#reset:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+#repsRemaining {
+    position: absolute;
+    top: 36.5rem;
+}
+
+.button.pause {
+    width: 44px;
+    height: 44px;
+    border-style: solid;
+    border-style: double;
+    border-width: 0px 0px 0px 37px;
+    border-color: #357C3C;
+    background-color: #f7f5dd;
+    cursor: pointer;
+    position: absolute;
+    top: 40rem;
+}
+
+
+.button.pause:active {
+    transform: translateY(4px);
+}
+
+#triviaQuestion {
+    text-align: center;
+
+}
